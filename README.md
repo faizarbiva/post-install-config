@@ -18,7 +18,7 @@ This tutorial explains how to create a virtual machine using microsoft azure and
 
 
 <h2>Configuration steps</h2>
-Step 1
+
 
 <p>
 <img src=https://i.imgur.com/850mXpN.png/>
@@ -26,24 +26,26 @@ Step 1
   In microsoft azure, search for virtual machine and click on create>azure virtual machine.
 
 
-Step 2
+
 <img src=https://i.imgur.com/yxRIzIk.png/>
 </p>
 <p>
 Go through the page and make a new recourse group or pick an existing one. Make your virtual machine name and pick the region you are in. Click next for Disks and Networking and press review and create. 
 </p>
 
-Step 3
+
+
+
 
 
 <img src=https://i.imgur.com/PO48nB8.png/>
+
 Confirm create.
-</p>
-<br />
 
 
-Step 4
+
 <img src=https://i.imgur.com/61MgF8E.png/>
+
 Wait until deployment fully finishes.
 
 
@@ -54,6 +56,7 @@ Wait until deployment fully finishes.
 
 
 <img src=https://i.imgur.com/UAAviFq.png/>
+
 Get public Ip address
 
 
@@ -72,14 +75,17 @@ Get public Ip address
 
 
 <img src=https://i.imgur.com/AZhsXx8.png/>
+
 Go and search for remote desktop on your desktop search bar and paste and public IP address.
 
 
 
 <img src=https://i.imgur.com/iBKqwt6.png/>
+
 Put the username and password you created when making the Virtual Machine.
 
 
 
 <img src=https://i.imgur.com/8qnIj27.png/>
-Next and if you see this page, ignore the warning and click yes. That should connect you to the vm.
+
+When you see this page, go ahead and click yes. That should connect you to the vm.
