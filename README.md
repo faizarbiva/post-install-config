@@ -10,65 +10,76 @@ This tutorial explains how to create a virtual machine using microsoft azure and
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
+
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
-<h2>Configuration Steps</h2>
+<h2>Configuration steps</h2>
+Step 1
 
 <p>
 <img src=https://i.imgur.com/850mXpN.png/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
+  In microsoft azure, search for virtual machine and click on create>azure virtual machine.
+
+
+Step 2
 <img src=https://i.imgur.com/yxRIzIk.png/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go through the page and make a new recourse group or pick an existing one. Make your virtual machine name and pick the region you are in. Click next for Disks and Networking and press review and create. 
 </p>
-<br />
 
-<p>
+Step 3
+
+
 <img src=https://i.imgur.com/PO48nB8.png/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Confirm create.
 </p>
 <br />
 
 
-
+Step 4
 <img src=https://i.imgur.com/61MgF8E.png/>
+Wait until deployment fully finishes.
+
+
+
+
+
 
 
 
 <img src=https://i.imgur.com/UAAviFq.png/>
+Get public Ip address
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 <img src=https://i.imgur.com/AZhsXx8.png/>
-
+Go and search for remote desktop on your desktop search bar and paste and public IP address.
 
 
 
 <img src=https://i.imgur.com/iBKqwt6.png/>
-
+Put the username and password you created when making the Virtual Machine.
 
 
 
 <img src=https://i.imgur.com/8qnIj27.png/>
+Next and if you see this page, ignore the warning and click yes. That should connect you to the vm.
