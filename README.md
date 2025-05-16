@@ -76,7 +76,7 @@ Get public Ip address
 
 <img src=https://i.imgur.com/AZhsXx8.png/>
 
-Go and search for remote desktop on your desktop search bar and paste and public IP address.
+Go and search for remote desktop on your desktop search bar and paste your public IP address.
 
 
 
